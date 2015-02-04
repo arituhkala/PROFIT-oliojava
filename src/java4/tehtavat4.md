@@ -1,8 +1,4 @@
-#Neljännen kerran tehtävät#
-
-Lämmittely: minkä vuoksi edellisen kerran Henkilö-luokassa oli mahdollista muutta toisen henkilön olion puoliso-attribuuttia
-
-Esimerkit:
+#Esimerkit#
 
 1. Periytyminen: Employee, Manager, Example
 	+ Attribuuttien periytyminen
@@ -19,9 +15,9 @@ Esimerkit:
 5. Kooste
 6. Kaardinaalisuus
 
-##Automaattinen ID##
+#Neljännen kerran tehtävät#
 
-Muuta **java4part2** (abstraktin luokan esimerkki) luokkarakennetta siten, että ID-numero on jokaisella uudella oliolla uniikki.
+Lämmittely: minkä vuoksi edellisen kerran Henkilö-luokassa oli mahdollista muutta toisen henkilön olion puoliso-attribuuttia
 
 ##Lumiukon paikka olioksi##
 
@@ -42,3 +38,30 @@ Mitä hyötyä sitten tästä on?
 Tee lisäksi Ympyrä luokka ja mieti sopivat attribuutit ja metodit, että se voidaan piirtää.
 
 Muuta Kuvio luokka abstraktiksi, josta peritään kaikille kuvioille yhteiset ominaisuudet
+
+##Toteuta oma luokkakaavio##
+
+Toteuta ensimmäisillä tunneilla tekemäsi luokkakaavio.
+
+##Luokka ja oppilaat##
+
+Toteuta luokka Koulu, jonka ominaisuutena on tietorakenne (lista), joka pitää sisällään oppilas-olioita.
+
+Toteuta Oppilas-luokka, jolla on esimerkiksi nimi ja sukupuoli.
+
+Toteuta rakenne siten, että:
+
++ Oppilas-oliolla on viiteattribuutti seuraava, joka osoittaa aina kyseistä oppilasta ennen lisättyyn oppilas-olioon
++ Koulussa on viiteattribuutti ensimmäinen, joka osoittaa aina ensimmäiseksi lisättyyn oppilaaseen
++ Koulussa on viiteattribuutti viimeinen, joka osoittaa aina viimeisimpänä lisättyyn oppilaaseen
++ Toteuta nyt Koulussa metodi, joka tyhjentää Koulun eli poistaa oppilaat
++ Toteuta metodi, joka tutkii, montako poikaa ja tyttöä luokassa on
++ Toteuta metodi, joka tulostaa kaikki oppilaat
+
+![Mallikuva koulu ja oppilaat](Koulu%20ja%20oppilaat.png)
+
+##Automaattinen ID##
+
+Muuta **java4part2** (abstraktin luokan esimerkki) luokkarakennetta siten, että ID-numero on jokaisella uudella oliolla uniikki.
+
+
