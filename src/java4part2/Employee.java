@@ -13,7 +13,7 @@ public class Employee extends Person {
 	 * @param n
 	 * @param id
 	 */
-	
+
 	public Employee(String n, String id) {
 		super(n, id);
 		// TODO Auto-generated constructor stub

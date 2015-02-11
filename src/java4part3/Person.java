@@ -8,19 +8,19 @@ package java4part3;
  * @date Feb 3, 2015
  */
 public abstract class Person {
-	
+
 	private String name;
 	private String ID;
-		
+
 	/**
 	 * 
 	 */
 	public Person(String n, String id) {
 		setName(n);
 		ID = id;
-		
+
 	}
-	
+
 	/**
 	 * @return the name
 	 */
@@ -29,23 +29,22 @@ public abstract class Person {
 	}
 
 	/**
-	 * @param name the name to set
+	 * @param name
+	 *            the name to set
 	 */
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	/**
 	 * @return the iD
 	 */
 	public String getID() {
 		return ID;
 	}
-	
-	public String displayInfo(){
-		return "Name: " + getName() + "\nID: " + getID() + "\n"; 
-	}
 
-	
+	public String displayInfo() {
+		return "Name: " + getName() + "\nID: " + getID() + "\n";
+	}
 
 }

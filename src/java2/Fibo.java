@@ -28,6 +28,7 @@ public class Fibo {
 
 	/**
 	 * Fibonaccin jono rekursion avulla
+	 * 
 	 * @param i
 	 * @return pyydetty alkio Fibonaccin jonosta
 	 */
@@ -46,9 +47,10 @@ public class Fibo {
 
 		// Rekursiolla
 
-		/**for (int i = 1; i < 10; ++i)
-			System.out.println(i + ". fibo on " + fibo(i));
-			**/
+		/**
+		 * for (int i = 1; i < 10; ++i) System.out.println(i + ". fibo on " +
+		 * fibo(i));
+		 **/
 	}
 
 }

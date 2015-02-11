@@ -18,14 +18,15 @@ public class Manager extends Person implements Printable {
 		// TODO Auto-generated constructor stub
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java4part3.Printable#print()
 	 */
 	@Override
 	public void print() {
 		System.out.println(this.displayInfo());
-		
+
 	}
-	
-	
+
 }

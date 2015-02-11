@@ -1,0 +1,37 @@
+
+
++ Työmatkan pituus polkupyörällä
+  - double tyomatkanPituus = 1.0;
++ Suoritettujen opintopisteiden määrä
+  - int opintopisteetSuoritetut = 1;
++ Koko tutkinnon laajuus opintopisteissä
+  - int opintopisteetTutkinto = 6;
++ Tehtyjen demojen lukumäärä
+  - int demotLkm = 0;
++ Kirjan ensimmäinen kirjain
+  - char ensimmainenKirjain = 'A';
++ Sadan metrin juoksun voittajan aika.
+  - double aika = 7.89;
+
+Arvostele seuraavat muuttujien tyypit ja nimet. Ovatko syntaktisesti oikein? Entä ovatko hyviä valintoja:
+
++ int mansikanKiloHinta;
+  - int ei oikein käy hinnan tyypiksi 
++ double first,second,final;
+  - muuttujana varattu sana
++ char omaNimi;
+  - nimi normaalisti pidempi kuin 1 merkki
++ double metriMm;
+  - muuttujan nimi?
++ double tuntejaVuorokaudessa;
+  - tyyppi ennemmin int
++ real nopeus;
+  - tyyppi?
++ double AuringonEtaisyys;
+  - muuttuja alkaa normaalisti pienellä
++ int kuukaudenKeskiLampo:
+  - tyyppi voisi olla varmaan double
++ int kissoja,2_kanaa,kolmeKoiraa;
+  - muuttuja ei saa alkaa numerolla
++ int i,j,l,I;
+  -

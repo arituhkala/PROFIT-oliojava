@@ -20,20 +20,21 @@ public class Kokonaislukuja {
 
 	/**
 	 * @author Ari Tuhkala
-	 * @param i laskuri, mihin asti tulostetaan
+	 * @param i
+	 *            laskuri, mihin asti tulostetaan
 	 */
 	private static void tulostaPotenssit(int raja) {
-		
-		int nelioJuuri=0;
-		while (nelioJuuri * nelioJuuri <raja) {
-			System.out.println(nelioJuuri*nelioJuuri);
+
+		int nelioJuuri = 0;
+		while (nelioJuuri * nelioJuuri < raja) {
+			System.out.println(nelioJuuri * nelioJuuri);
 			nelioJuuri++;
 		}
 
 	}
 
 	/**
-	 * Pääohjelma
+	 * Pï¿½ï¿½ohjelma
 	 * 
 	 * @param args
 	 */
@@ -47,7 +48,7 @@ public class Kokonaislukuja {
 			printIfZeroModSqrt(root);
 
 		// Tapa B
-		
+
 		System.out.println("Arin vastaus");
 		tulostaPotenssit(1000);
 

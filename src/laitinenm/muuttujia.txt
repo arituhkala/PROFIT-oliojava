@@ -1,0 +1,65 @@
+Miten esittelisit (tyyppi ja nimi) muuttujat seuraavia tilanteita varten. 
+Anna myös esimerkki miten sijoittaisit muuttujalle jonkin arvon. 
+
++ Työmatkan pituus polkupyörällä
+float wayToWork = 10.0; 
+
++ Suoritettujen opintopisteiden määrä
+short recordedCreditUnits = 180;
+ 
++ Koko tutkinnon laajuus opintopisteissä
+short totalCreditUnits = 180+120;
+
++ Tehtyjen demojen lukumäärä
+short nbrOfDemos = 20;
+ 
++ Kirjan ensimmäinen kirjain
+char firstLetter = ´c´;
+
++ Sadan metrin juoksun voittajan aika.
+float timeWinner100m = 12.34;
+
+***
+
+Arvostele seuraavat muuttujien tyypit ja nimet. 
+Ovatko syntaktisesti oikein? Entä ovatko hyviä valintoja:
+
++ int mansikanKiloHinta;
+Tyyppi mielummin float, koska hinta voi olla kokonaiset eurot + euro sentit 2 desimaalilla.
+Syntaksi ok.
+
++ double first,second,final;
+Tyyppi mielummin short tai int, jos muuttujiin sijoitetaan kokonaisluku.
+Syntaksi ok.
+
++ char omaNimi;
+Tyyppi pitää olla string, jotta koko nimi mahtuu muuttujaan. Char-tyyppiin vain yksi kirjain.
+Syntaksi ok.
+
++ double metriMm;
+Tyyppi voi olla ok, jos tässä halutaan antaa mitta liukuluku muodossa (metreissä millimetrin tarkkuudella).
+Syntaksi: muuttujan nimi voi olla harhaanjohtava erityisesti silloin jos mitta halutaan antaa millimetreissä.
+
++ double tuntejaVuorokaudessa;
+Tyyppi mielummin byte, koska arvoalue riittää ja kyseessä kokonaisluku.
+Syntaksi ok.
+
++ real nopeus;
+Tyyppi pitäisi olla float reaaliluvuille. Real lienee Pascal kielen liukulukumuuttuja.
+Syntaksi ok.
+
++ double AuringonEtaisyys;
+Tyyppi mielummin long, koska usein etäisyys esitetään täysiin satoihin tuhansiin kilometreihin pyöristettynä.
+Muuttujan syntaksissa ensimäinen kirjain tulisi olla pieni.
+
++ int kuukaudenKeskiLampo:
+Tyyppi mielummin float, koska virallisesti lämpötila ilmoitetaan yhden desimaalin tarkkuudella.
+Syntaksissa virhe, koska päättyy kaksoispisteeseen eikä puolipisteeseen.
+
++ int kissoja,2_kanaa,kolmeKoiraa;
+Tyyppi on ok, koska tässä lasketaan kokonaisia eläimiä.
+Syntaksi 2_kanaa on väärin, koska muuttuja ei voi alkaa numerolla.
+
++ int i,j,l,I;
+Tyyppi on ok, jos käytetään laskurina.
+Syntaksissa viimeinen muuttuja I on väärin, koska käytössä on iso kirjain.

@@ -9,8 +9,8 @@ package java2;
 public class Sanakone {
 
 	/**
-	 * Muutetaan merkkijonotaulukon avulla joka toinen kirjain isoksi
-	 * 1) Muuta ensin merkkijono merkkijonotaulukoksi (tutki Java API String)
+	 * Muutetaan merkkijonotaulukon avulla joka toinen kirjain isoksi 1) Muuta
+	 * ensin merkkijono merkkijonotaulukoksi (tutki Java API String)
 	 * 
 	 * 
 	 * @param sana
@@ -21,7 +21,7 @@ public class Sanakone {
 		// Otetaan talteen sanan pituus
 		int sananPituus = sana.length();
 
-		// Luodaan uusi kirjaintaulu, joka on saman pituinen kuin alkuperäinen
+		// Luodaan uusi kirjaintaulu, joka on saman pituinen kuin alkuperï¿½inen
 		// merkkijono
 		char[] kirjainTaulu = new char[sananPituus];
 		// Alustetaan yksi kirjainmuuttuja isoksi muuttamista varten
@@ -30,18 +30,18 @@ public class Sanakone {
 		// Alustetaan laskuri
 		int i = 0;
 
-		// Käydään sana läpi ja muutetaan joka toinen kirjain isoksi ja lisätään
+		// Kï¿½ydï¿½ï¿½n sana lï¿½pi ja muutetaan joka toinen kirjain isoksi ja lisï¿½tï¿½ï¿½n
 		// samalla kirjaimet taulukkoon
 		while (i < sananPituus) {
 
-			
-			// Jos sanan indeksi on parillinen, niin muutetaan kirjain isoksi ja lisätään tauluun
-				// if () ...
-				// TODOO
-			
-			// Muuten lisätään kirjain tauluun
-				//else
-				//TODOO
+			// Jos sanan indeksi on parillinen, niin muutetaan kirjain isoksi ja
+			// lisï¿½tï¿½ï¿½n tauluun
+			// if () ...
+			// TODOO
+
+			// Muuten lisï¿½tï¿½ï¿½n kirjain tauluun
+			// else
+			// TODOO
 
 			// Kasvatetaan laskuria
 			i++;
@@ -52,8 +52,8 @@ public class Sanakone {
 	}
 
 	/**
-	 * Markon ratkaisu sovellettuna
-	 * Tehtävä: toteuta metodi StringBuilderin avulla
+	 * Markon ratkaisu sovellettuna Tehtï¿½vï¿½: toteuta metodi StringBuilderin
+	 * avulla
 	 * 
 	 * @author Marko Back
 	 * @param merkkijono
@@ -61,14 +61,14 @@ public class Sanakone {
 	 */
 	public String jokaToisenIsonaPaluu(String merkkijono) {
 		StringBuilder jokatoinen = new StringBuilder("");
-		
-		//TODOOO
-		
+
+		// TODOOO
+
 		return jokatoinen.toString();
 	}
 
 	/**
-	 * Naapurinpojan koodailut. Mikä tässä mättää?
+	 * Naapurinpojan koodailut. Mikï¿½ tï¿½ssï¿½ mï¿½ttï¿½ï¿½?
 	 * 
 	 * @param sana
 	 * @return
@@ -85,28 +85,27 @@ public class Sanakone {
 	}
 
 	/**
-	 * Sanakoneen käynnistysmetodi
+	 * Sanakoneen kï¿½ynnistysmetodi
 	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
 
 		Sanakone sanakone = new Sanakone();
-		String sana = "Aasin silta alla auringon maan taivaan pääkallon";
-		System.out.println("Alkuperäinen sana: " + sana);
+		String sana = "Aasin silta alla auringon maan taivaan pï¿½ï¿½kallon";
+		System.out.println("Alkuperï¿½inen sana: " + sana);
 
 		String huonoSana = sanakone.huonoTapa(sana);
 		System.out.println("Naapurinpojan ratkaisu: " + huonoSana);
-		
+
 		String uusisana = sanakone.jokaToinenIsona(sana);
 		System.out.println("Joka toinen kirjain isona: " + uusisana);
 
 		// Markon ratkaisu StringBuilderin avulla
 
-		String aasiMerkkijono = "Aasin silta alla auringon maan taivaan pääkallon";
+		String aasiMerkkijono = "Aasin silta alla auringon maan taivaan pï¿½ï¿½kallon";
 		String tulosMerkkijono = sanakone.jokaToisenIsonaPaluu(aasiMerkkijono);
 		System.out.println("Markon ratkaisu: " + tulosMerkkijono);
-		
 
 	}
 

@@ -16,19 +16,20 @@ public class Secretary extends Employee {
 	public Secretary(String n, int s) {
 		super(n, s);
 	}
-	
+
 	private void makeReport(Employee e) {
 		System.out.println(e.getName() + " has violated the company politics."
 				+ "Punishment will be harsh");
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see java4.Employee#displayEmpInfo()
 	 */
 	@Override
 	public String displayEmpInfo() {
 		return super.displayEmpInfo();
 	}
-	
 
 }

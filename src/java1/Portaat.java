@@ -1,49 +1,57 @@
 package java1;
+
 import fi.jyu.mit.graphics.EasyWindow;
 
 /**
- * Ohjelma piirtää viisi porrasta alkaen origosta päättyen
- * pisteesen (5,5)
- * @author // Täydennä
- * @version // Täydennä
+ * Ohjelma piirtï¿½ï¿½ viisi porrasta alkaen origosta pï¿½ï¿½ttyen pisteesen (5,5)
+ * 
+ * @author // Tï¿½ydennï¿½
+ * @version // Tï¿½ydennï¿½
  */
 public class Portaat {
 
-    /**
-     * Aliohjelma piirtää ikkunaan yhden nousevan portaan
-     * alkaen pisteestä (x,y) ja päättyen pisteeseen (x+1,y+1)
-     * <pre>
-     *    |-------(x+1,y+1)
-     *    |
-     *    |
-     *    |
-     *   (x,y) 
-     * </pre>
-     * @param window
-     * @param x portaan alkupisteen x
-     * @param y portaan alkupisteen y
-     */
-    public static void porrasYlos(EasyWindow window,double x,double y) {
-        // Täydennä tähän
-    }
-    
-    /**
-     * @param args ei käytössä
-     */
-    public static void main(String[] args) {
-        EasyWindow window = new EasyWindow();
-        window.scale(0,0,20,20);
-        //Kaksi porrasta ylös
-        porrasYlos(window,0,0);
-        porrasYlos(window,1,1);
-        
-        //Sitten alas
-        //porrasAlas(window,5,5);
-        //porrasAlas(window,4,4);
-        
-        //Ja lopulta metodi, joka piirtää halutun määrän portaita alkaen tietystä koordinaatista
-        //piirraPortaat(window,3,3,7);
-        // eli piirraPortaat(ikkuna johon piirretään, x-koord, y-koord, montako porrasta
-        window.showWindow();
-    }
+	/**
+	 * Aliohjelma piirtï¿½ï¿½ ikkunaan yhden nousevan portaan alkaen pisteestï¿½ (x,y)
+	 * ja pï¿½ï¿½ttyen pisteeseen (x+1,y+1)
+	 * 
+	 * <pre>
+	 *    |-------(x+1,y+1)
+	 *    |
+	 *    |
+	 *    |
+	 *   (x,y)
+	 * </pre>
+	 * 
+	 * @param window
+	 * @param x
+	 *            portaan alkupisteen x
+	 * @param y
+	 *            portaan alkupisteen y
+	 */
+	public static void porrasYlos(EasyWindow window, double x, double y) {
+		// Tï¿½ydennï¿½ tï¿½hï¿½n
+	}
+
+	/**
+	 * @param args
+	 *            ei kï¿½ytï¿½ssï¿½
+	 */
+	public static void main(String[] args) {
+		EasyWindow window = new EasyWindow();
+		window.scale(0, 0, 20, 20);
+		// Kaksi porrasta ylï¿½s
+		porrasYlos(window, 0, 0);
+		porrasYlos(window, 1, 1);
+
+		// Sitten alas
+		// porrasAlas(window,5,5);
+		// porrasAlas(window,4,4);
+
+		// Ja lopulta metodi, joka piirtï¿½ï¿½ halutun mï¿½ï¿½rï¿½n portaita alkaen
+		// tietystï¿½ koordinaatista
+		// piirraPortaat(window,3,3,7);
+		// eli piirraPortaat(ikkuna johon piirretï¿½ï¿½n, x-koord, y-koord, montako
+		// porrasta
+		window.showWindow();
+	}
 }

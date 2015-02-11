@@ -1,0 +1,4 @@
+kapselointi tarkoittaa sit‰ ett‰ olion sis‰isiin tietorakenteisiin ei ulkoa p‰in p‰‰se
+
+Tuote.java
+Tuote.jar

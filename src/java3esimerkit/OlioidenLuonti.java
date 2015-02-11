@@ -1,35 +1,35 @@
 package java3esimerkit;
 
-
 /**
  * Esimerkki olion luomisesta, metodien kutsumisesta ja viitemuuttujien
- * käytöstä. Ohjelman kuuluu päättyä virheeseen.
+ * kï¿½ytï¿½stï¿½. Ohjelman kuuluu pï¿½ï¿½ttyï¿½ virheeseen.
+ * 
  * @author Mika Vesterholm
  * @version 1.0
  */
 
 public class OlioidenLuonti {
-  public static void main(String[] args) {
+	public static void main(String[] args) {
     Laskuri lask;
     lask = new Laskuri();
     Laskuri toinen = new Laskuri(2);
 
     lask.kasvata();
-    lask.lisää(10);
+    lask.lisï¿½ï¿½(10);
     int laskurinArvo = lask.getLukema();
 
     //Luvaton, koska lukema on private
     //lask.lukema = lask.lukema + 5;
 
     lask.kasvata();
-    toinen.lisää(5);
-    lask.lisää(toinen.getLukema());
+    toinen.lisï¿½ï¿½(5);
+    lask.lisï¿½ï¿½(toinen.getLukema());
 
     toinen = lask;
 
     toinen = null;
 
-    //Tästä tulee virhe ohjelmaa ajettaessa!
+    //Tï¿½stï¿½ tulee virhe ohjelmaa ajettaessa!
     toinen.kasvata();
   }
 }

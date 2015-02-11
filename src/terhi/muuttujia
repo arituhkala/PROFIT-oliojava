@@ -1,0 +1,33 @@
+Miten esittelisit (tyyppi ja nimi) muuttujat seuraavia tilanteita varten. Anna myös
+esimerkki miten sijoittaisit muuttujalle jonkin arvon. 
+
+// Työmatkan pituus polkupyörällä:
+double tyomatkanPituus = 7.4;
+
+//Suoritettujen opintopisteiden määrä
+int opintopisteet = 5;
+
+//Koko tutkinnon laajuus opintopisteissä
+int tutkinnonLaajuusOpintopisteissa 45;
+
+//Tehtyjen demojen lukumäärä
+int tehdyDemot = 5;
+
+//Kirjan ensimmäinen kirjain
+char ensimmainenKirjain = 'A';
+
+//Sadan metrin juoksun voittajan aika.
+double voittajanAika = 9.52;
+
+Arvostele seuraavat muuttujien tyypit ja nimet. Ovatko syntaktisesti oikein? Entä ovatko hyviä valintoja:
+
+int mansikanKiloHinta;
+double first,second,final;
+char omaNimi;
+double metriMm;
+double tuntejaVuorokaudessa;
+real nopeus;
+double AuringonEtaisyys;
+int kuukaudenKeskiLampo:
+int kissoja,2_kanaa,kolmeKoiraa;
+int i,j,l,I;

@@ -1,0 +1,21 @@
+
+int tyomatkanPituusPolkupyorallaKm = 15
+int suoritettujenOpintopisteidenMaara = 230
+int tutkinnonLaajuusOpintopistessa = 880
+int tehtyjenDemojenLukumaara = 15
+char kirjanEnsimmainenKirjain = 'A'
+double sadanMetrinJuoksunVoittajanAika = 9.98
+
+
+
+
+int mansikanKiloHinta; // taitaa kilohinta olla joskun euron osia joten double olisi parempi
+double first,second,final; // final on varattu termi
+char omaNimi; // lyhyt pit‰‰ nimen olla, itse k‰ytt‰isin stringi‰
+double metriMm; // int millimetri ?
+double tuntejaVuorokaudessa; // k‰ytt‰isin vakiota
+real nopeus; // double nopeus, real:ia ei ole ?
+double AuringonEtaisyys; // auringonEtaisyys
+int kuukaudenKeskiLampo:  // double parempi
+int kissoja,2_kanaa,kolmeKoiraa; // muuttuja ei voi alkaa numerolla
+int i,j,l,I; // tˆiss‰ kannatta tehd‰ vaikeaa koodia niin muut ei saa selv‰‰, mutta kotona kannattaa k‰ytt‰‰ vain pieni‰ kirjaimia

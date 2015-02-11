@@ -3,14 +3,15 @@ package java2;
 import fi.jyu.mit.graphics.*;
 
 /**
- * Harjoitellaan piirtelyä ja kuormittamista
+ * Harjoitellaan piirtelyï¿½ ja kuormittamista
+ * 
  * @author Ari Tuhkala
  *
  */
 public class Lumiukko {
-	
+
 	/**
-	 * Piirtää lumiukon annettuun paikkaan
+	 * Piirtï¿½ï¿½ lumiukon annettuun paikkaan
 	 * 
 	 * @param w
 	 * @param x
@@ -19,40 +20,43 @@ public class Lumiukko {
 	 * @param keskipallonSade
 	 * @param pikkupallonSade
 	 */
-	public void piirraLumiukko(EasyWindow w,double x, double y,double isonPallonSade, double keskipallonSade, double pikkupallonSade) {
+	public void piirraLumiukko(EasyWindow w, double x, double y,
+			double isonPallonSade, double keskipallonSade,
+			double pikkupallonSade) {
 
-	        //double keskiPallonY =  //ratkaise tähän keskiPallonY
-	        //double pikkuPallonY =  //ratkaise tähän pikkuPallonY
-	        
-	        w.addCircle(x,y,isonPallonSade); //piirtää ison pallon
-	        //w.addCircle(x,keskiPallonY,keskipallonSade); //piirtää keskipallon
-	        //w.addCircle(x,pikkuPallonY,pikkupallonSade); //piirtää pikkupallon
-	        
+		// double keskiPallonY = //ratkaise tï¿½hï¿½n keskiPallonY
+		// double pikkuPallonY = //ratkaise tï¿½hï¿½n pikkuPallonY
+
+		w.addCircle(x, y, isonPallonSade); // piirtï¿½ï¿½ ison pallon
+		// w.addCircle(x,keskiPallonY,keskipallonSade); //piirtï¿½ï¿½ keskipallon
+		// w.addCircle(x,pikkuPallonY,pikkupallonSade); //piirtï¿½ï¿½ pikkupallon
+
 	}
-	
-    public static void main(String[] args) {
-    	//Luodaan uusi ikkuna
-        EasyWindow window = new EasyWindow();
-        
-        window.scale(0, 0, 1000, 1000);
-        
-        //Luodaan lumiukko-olio
-        Lumiukko lumiukko = new Lumiukko ();
-        
-        // Piirretään lumiukko (ikkuna, johon piirretään,x,y,alimman pallon säde, keskipallon säde, ylimmän pallon säde)
-        lumiukko.piirraLumiukko(window,100,100,35,25,10);
-        
-        /**
-         *Pistä alla olevat toimimaan
-         * 
-    	 *lumiukko(window, x, y); // piirtää standardikokoisen lumiukon
-    	 *lumiukko(window, x, y, isonPallonSade);
-    	 *lumiukko(window, x, y, isonPallonSade, keskiPallonSade); 
-    	 *lumiukko(window, x, y, isonPallonSade, keskiPallonSade, pienenPallonSade);
-         **/
-        
-        // Näytetään ikkuna
-        window.showWindow();
-    }
+
+	public static void main(String[] args) {
+		// Luodaan uusi ikkuna
+		EasyWindow window = new EasyWindow();
+
+		window.scale(0, 0, 1000, 1000);
+
+		// Luodaan lumiukko-olio
+		Lumiukko lumiukko = new Lumiukko();
+
+		// Piirretï¿½ï¿½n lumiukko (ikkuna, johon piirretï¿½ï¿½n,x,y,alimman pallon
+		// sï¿½de, keskipallon sï¿½de, ylimmï¿½n pallon sï¿½de)
+		lumiukko.piirraLumiukko(window, 100, 100, 35, 25, 10);
+
+		/**
+		 * Pistï¿½ alla olevat toimimaan
+		 * 
+		 * lumiukko(window, x, y); // piirtï¿½ï¿½ standardikokoisen lumiukon
+		 * lumiukko(window, x, y, isonPallonSade); lumiukko(window, x, y,
+		 * isonPallonSade, keskiPallonSade); lumiukko(window, x, y,
+		 * isonPallonSade, keskiPallonSade, pienenPallonSade);
+		 **/
+
+		// Nï¿½ytetï¿½ï¿½n ikkuna
+		window.showWindow();
+	}
 
 }
